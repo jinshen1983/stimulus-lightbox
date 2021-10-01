@@ -1,3 +1,6 @@
+// 20211001154958
+// https://raw.githubusercontent.com/jinshen1983/stimulus-lightbox/5b2d29741fe689b11dc640475f724a13eb40f485/package.json
+
 {
   "name": "stimulus-lightbox",
   "version": "2.0.0",
@@ -17,7 +20,9 @@
   "license": "MIT",
   "homepage": "https://github.com/stimulus-components/stimulus-lightbox",
   "private": false,
-  "main": "index.js",
+  "esnext": "dist-src/index.js",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js",
   "@pika/pack": {
     "pipeline": [
       [
@@ -54,9 +59,9 @@
     "@snowpack/plugin-babel": "2.1.3",
     "prettier-standard": "16.4.1",
     "snowpack": "2.14.3",
-    "@hotwired/stimulus": "^2.0.0"
+    "stimulus": "^2.0.0"
   },
   "peerDependencies": {
-    "@hotwired/stimulus": "^2.0.0"
+    "stimulus": "^2.0.0"
   }
 }
