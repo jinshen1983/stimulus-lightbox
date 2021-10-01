@@ -17,9 +17,7 @@
   "license": "MIT",
   "homepage": "https://github.com/stimulus-components/stimulus-lightbox",
   "private": false,
-  "esnext": "dist-src/index.js",
-  "main": "dist-node/index.js",
-  "module": "dist-web/index.js",
+  "main": "index.js",
   "@pika/pack": {
     "pipeline": [
       [
